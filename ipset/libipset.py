@@ -1,5 +1,7 @@
 import ctypes as ct
 
+__all__ = ["Session"]
+
 _libipset = ct.CDLL("libipset.so.3")
 #_libipset = ct.CDLL("/home/stephan/repos/ipset/lib/.libs/libipset.so.3.6.0")
 
